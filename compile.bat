@@ -1,5 +1,5 @@
 @REM Parametro 1 = file.py da compilare
-pyinstaller.exe .\%1 --clean --onefile --windowed --noconsole -i"Calculator_31111.ico"
+pyinstaller.exe .\%1 --clean --onefile --windowed --noconsole
 rd /s /q build
 set str=%1
 set str=%str:~0,-3%
